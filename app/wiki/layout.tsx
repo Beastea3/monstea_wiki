@@ -13,7 +13,7 @@ export default function WikiLayout({
 
   return (
     <WikiChrome docs={navDocs}>
-      <div className="min-h-full px-6 py-10 md:px-12 md:py-12">
+      <div className="box-border min-h-full min-w-0 max-w-full px-6 py-10 md:px-12 md:py-12">
         {children}
       </div>
     </WikiChrome>

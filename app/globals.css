@@ -79,6 +79,12 @@
   --font-mono: var(--font-geist-mono);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--bg-canvas);
   color: var(--text-primary);
@@ -87,10 +93,20 @@ body {
 
 /* Prose for MDX (no typography plugin — explicit control) */
 .wiki-prose {
-  max-width: var(--content-max);
+  min-width: 0;
+  max-width: min(100%, var(--content-max));
+  width: 100%;
   font-size: 1rem;
   line-height: 1.5;
   color: var(--text-secondary);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.wiki-prose img,
+.wiki-prose video {
+  max-width: 100%;
+  height: auto;
 }
 
 .wiki-prose > * + * {
@@ -168,7 +184,11 @@ body {
 .wiki-prose pre {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  max-width: 100%;
+  min-width: 0;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
   border: 1px solid var(--border-default);
   border-radius: 0;
   background: var(--surface-card);
@@ -226,12 +246,12 @@ body {
 
 .wiki-prose pre code {
   display: block;
-  width: 100%;
   border: none;
   padding: 0;
   background: transparent;
   font-size: 0.875rem;
   line-height: 1.6;
+  white-space: pre;
 }
 
 .wiki-prose blockquote {
@@ -249,6 +269,8 @@ body {
 
 .wiki-prose table {
   width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
   font-size: 0.9375rem;
 }
@@ -258,6 +280,8 @@ body {
   border: 1px solid var(--border-default);
   padding: 0.5rem 0.75rem;
   text-align: left;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .wiki-prose th {

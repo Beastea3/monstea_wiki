@@ -54,9 +54,9 @@ export default async function WikiPage({ params }: WikiPageProps) {
   }
 
   return (
-    <article>
-      <header className="mb-10 max-w-[var(--content-max)] border-b border-[var(--border-default)] pb-8">
-        <h1 className="font-sans text-[1.875rem] font-normal leading-tight text-[var(--text-primary)]">
+    <article className="min-w-0 max-w-full">
+      <header className="mb-10 min-w-0 max-w-[var(--content-max)] border-b border-[var(--border-default)] pb-8">
+        <h1 className="break-words font-sans text-[1.875rem] font-normal leading-tight text-[var(--text-primary)]">
           {doc.title}
         </h1>
         {doc.description ? (

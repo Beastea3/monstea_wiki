@@ -14,7 +14,7 @@ export function WikiChrome({ docs, children }: WikiChromeProps) {
   const closeMenu = () => setOpen(false);
 
   return (
-    <div className="flex min-h-0 flex-1">
+    <div className="flex min-h-0 min-w-0 w-full max-w-full flex-1">
       <button
         type="button"
         className="fixed bottom-6 right-6 z-50 flex h-12 min-h-[44px] items-center border border-[var(--border-default)] bg-[var(--surface-elevated)] px-4 font-mono text-xs uppercase tracking-[1.4px] text-[var(--text-primary)] md:hidden"
@@ -41,7 +41,9 @@ export function WikiChrome({ docs, children }: WikiChromeProps) {
       >
         <WikiNav docs={docs} onNavigate={closeMenu} />
       </aside>
-      <div className="min-h-0 flex-1 md:pl-0">{children}</div>
+      <div className="min-h-0 min-w-0 max-w-full flex-1 overflow-x-hidden md:pl-0">
+        {children}
+      </div>
     </div>
   );
 }
