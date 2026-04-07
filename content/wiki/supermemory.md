@@ -154,7 +154,6 @@ Supermemory 知道何时记忆变得无关：
 ## 相关页面
 
 - [[lossless-context-management]] — LCM：确定性双状态记忆架构
-- [[mempalace-memory-system]] — MemPalace：记忆宫殿，本地优先
 - [[llm-agents]] — LLM 智能体
 
 **来源：**
