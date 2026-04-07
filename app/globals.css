@@ -1,0 +1,271 @@
+@import "tailwindcss";
+
+/*
+ * Themes: data-theme on <html> — system (default) | light | dark
+ * system + missing attribute: follow prefers-color-scheme
+ */
+:root {
+  color-scheme: light dark;
+  --content-max: 42rem;
+  /* Default + system light: light palette */
+  --bg-canvas: #f4f4f2;
+  --text-primary: #1a1c1f;
+  --text-secondary: rgba(26, 28, 31, 0.72);
+  --text-tertiary: rgba(26, 28, 31, 0.5);
+  --text-quaternary: rgba(26, 28, 31, 0.35);
+  --text-muted: rgba(26, 28, 31, 0.45);
+  --border-default: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --surface-elevated: rgba(0, 0, 0, 0.04);
+  --surface-hover: rgba(0, 0, 0, 0.07);
+  --surface-card: rgba(0, 0, 0, 0.03);
+  --scrim: rgba(26, 28, 31, 0.45);
+  --btn-primary-hover: rgba(26, 28, 31, 0.88);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]),
+  :root[data-theme="system"] {
+    --bg-canvas: #1f2228;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-tertiary: rgba(255, 255, 255, 0.5);
+    --text-quaternary: rgba(255, 255, 255, 0.3);
+    --text-muted: rgba(255, 255, 255, 0.5);
+    --border-default: rgba(255, 255, 255, 0.1);
+    --border-strong: rgba(255, 255, 255, 0.2);
+    --surface-elevated: rgba(255, 255, 255, 0.05);
+    --surface-hover: rgba(255, 255, 255, 0.08);
+    --surface-card: rgba(255, 255, 255, 0.03);
+    --scrim: rgba(31, 34, 40, 0.82);
+    --btn-primary-hover: rgba(255, 255, 255, 0.9);
+  }
+}
+
+:root[data-theme="light"] {
+  --bg-canvas: #f4f4f2;
+  --text-primary: #1a1c1f;
+  --text-secondary: rgba(26, 28, 31, 0.72);
+  --text-tertiary: rgba(26, 28, 31, 0.5);
+  --text-quaternary: rgba(26, 28, 31, 0.35);
+  --text-muted: rgba(26, 28, 31, 0.45);
+  --border-default: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --surface-elevated: rgba(0, 0, 0, 0.04);
+  --surface-hover: rgba(0, 0, 0, 0.07);
+  --surface-card: rgba(0, 0, 0, 0.03);
+  --scrim: rgba(26, 28, 31, 0.45);
+  --btn-primary-hover: rgba(26, 28, 31, 0.88);
+}
+
+:root[data-theme="dark"] {
+  --bg-canvas: #1f2228;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: rgba(255, 255, 255, 0.5);
+  --text-quaternary: rgba(255, 255, 255, 0.3);
+  --text-muted: rgba(255, 255, 255, 0.5);
+  --border-default: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.2);
+  --surface-elevated: rgba(255, 255, 255, 0.05);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --surface-card: rgba(255, 255, 255, 0.03);
+  --scrim: rgba(31, 34, 40, 0.82);
+  --btn-primary-hover: rgba(255, 255, 255, 0.9);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Prose for MDX (no typography plugin — explicit control) */
+.wiki-prose {
+  max-width: var(--content-max);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.wiki-prose > * + * {
+  margin-top: 1rem;
+}
+
+.wiki-prose strong {
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+.wiki-prose a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.wiki-prose a:hover {
+  color: var(--text-muted);
+}
+
+.wiki-prose h2,
+.wiki-prose h3,
+.wiki-prose h4 {
+  color: var(--text-primary);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.wiki-prose h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.875rem;
+}
+
+.wiki-prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.375rem;
+}
+
+.wiki-prose h4 {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.wiki-prose .wiki-heading-anchor {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wiki-prose .wiki-heading-anchor:hover {
+  color: var(--text-muted);
+}
+
+.wiki-prose ul,
+.wiki-prose ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.wiki-prose li {
+  margin-top: 0.25rem;
+}
+
+.wiki-prose code {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.9em;
+  border: 1px solid var(--border-strong);
+  padding: 0.1em 0.35em;
+  background: var(--surface-card);
+}
+
+.wiki-prose pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--border-default);
+  border-radius: 0;
+  background: var(--surface-card);
+  padding: 1rem;
+}
+
+/* Shiki: light highlighting (default + forced light) */
+.wiki-prose code[data-theme*=" "],
+.wiki-prose code[data-theme*=" "] span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+}
+
+.wiki-prose pre:has(> code[data-theme*=" "]) {
+  background: var(--shiki-light-bg);
+}
+
+/* Shiki: system / no attr on dark OS */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .wiki-prose code[data-theme*=" "],
+  :root:not([data-theme]) .wiki-prose code[data-theme*=" "] span,
+  :root[data-theme="system"] .wiki-prose code[data-theme*=" "],
+  :root[data-theme="system"] .wiki-prose code[data-theme*=" "] span {
+    color: var(--shiki-dark);
+    background-color: var(--shiki-dark-bg);
+  }
+
+  :root:not([data-theme]) .wiki-prose pre:has(> code[data-theme*=" "]),
+  :root[data-theme="system"] .wiki-prose pre:has(> code[data-theme*=" "]) {
+    background: var(--shiki-dark-bg);
+  }
+}
+
+/* Forced dark (including light OS) */
+:root[data-theme="dark"] .wiki-prose code[data-theme*=" "],
+:root[data-theme="dark"] .wiki-prose code[data-theme*=" "] span {
+  color: var(--shiki-dark);
+  background-color: var(--shiki-dark-bg);
+}
+
+:root[data-theme="dark"] .wiki-prose pre:has(> code[data-theme*=" "]) {
+  background: var(--shiki-dark-bg);
+}
+
+/* Forced light on dark OS */
+:root[data-theme="light"] .wiki-prose code[data-theme*=" "],
+:root[data-theme="light"] .wiki-prose code[data-theme*=" "] span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+}
+
+:root[data-theme="light"] .wiki-prose pre:has(> code[data-theme*=" "]) {
+  background: var(--shiki-light-bg);
+}
+
+.wiki-prose pre code {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0;
+  background: transparent;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.wiki-prose blockquote {
+  border-left: 2px solid var(--border-strong);
+  margin: 1rem 0;
+  padding-left: 1rem;
+  color: var(--text-tertiary);
+}
+
+.wiki-prose hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid var(--border-default);
+}
+
+.wiki-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.wiki-prose th,
+.wiki-prose td {
+  border: 1px solid var(--border-default);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.wiki-prose th {
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+:focus-visible {
+  outline: 2px solid rgb(59, 130, 246);
+  outline-offset: 2px;
+}

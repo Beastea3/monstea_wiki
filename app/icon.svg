@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .icon-bg {
+      fill: #f4f4f2;
+    }
+    @media (prefers-color-scheme: dark) {
+      .icon-bg {
+        fill: #1f2228;
+      }
+    }
+  </style>
+  <rect class="icon-bg" width="32" height="32" />
+  <text
+    x="16"
+    y="22"
+    text-anchor="middle"
+    font-size="18"
+    font-family="Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, sans-serif"
+  >&#x1F913;</text>
+</svg>
