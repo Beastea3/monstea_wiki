@@ -2,6 +2,7 @@ import "server-only";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { normalizeSlugPart, normalizeSlugSegments } from "@/lib/wiki-slug";
 
 const WIKI_ROOT = path.join(process.cwd(), "content", "wiki");
 
@@ -40,12 +41,15 @@ function filePathToSlug(absPath: string): string[] {
   const rel = path.relative(WIKI_ROOT, absPath);
   const dir = path.dirname(rel);
   const base = path.basename(rel, ".md");
-  const dirParts = dir === "." ? [] : dir.split(path.sep);
+  /** Normalize to NFC so slugs match URL params / macOS NFD filenames. */
+  const normSeg = (s: string) => normalizeSlugPart(s);
+  const dirParts =
+    dir === "." ? [] : dir.split(path.sep).filter(Boolean).map(normSeg);
 
   if (base === "index") {
     return dirParts;
   }
-  return [...dirParts, base];
+  return [...dirParts, normSeg(base)];
 }
 
 function slugsEqual(a: string[], b: string[]): boolean {
@@ -88,7 +92,7 @@ export function getAllWikiDocs(): WikiDoc[] {
 }
 
 export function getWikiDocBySlug(segments: string[] | undefined): WikiDoc | null {
-  const target = segments ?? [];
+  const target = normalizeSlugSegments(segments);
   const docs = getAllWikiDocs();
   return docs.find((d) => slugsEqual(d.slug, target)) ?? null;
 }

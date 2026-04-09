@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MarkdownContent } from "@/components/MarkdownContent";
 import { SITE_NAME, getSiteUrl } from "@/lib/site";
+import { slugToWikiPath } from "@/lib/wiki-paths";
+import { normalizeSlugSegments } from "@/lib/wiki-slug";
 import { getAllWikiDocs, getWikiDocBySlug } from "@/lib/wiki";
 
 type WikiPageProps = {
@@ -25,12 +27,8 @@ export async function generateMetadata({
     return { title: `Not found | ${SITE_NAME}` };
   }
 
-  const url = new URL(
-    segments?.length
-      ? `/wiki/${segments.map(encodeURIComponent).join("/")}`
-      : "/wiki",
-    getSiteUrl(),
-  );
+  const path = slugToWikiPath(normalizeSlugSegments(segments));
+  const url = new URL(path, getSiteUrl());
 
   return {
     title: `${doc.title} | ${SITE_NAME}`,

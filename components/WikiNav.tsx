@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { slugToWikiPath, type WikiNavItem } from "@/lib/wiki-paths";
+import {
+  isActiveWikiPath,
+  slugToDecodedWikiPathname,
+  slugToWikiPath,
+  type WikiNavItem,
+} from "@/lib/wiki-paths";
 
 type WikiNavProps = {
   docs: WikiNavItem[];
@@ -30,9 +35,10 @@ export function WikiNav({ docs, onNavigate }: WikiNavProps) {
       <ul className="flex flex-col gap-1 font-sans text-sm">
         {docs.map((doc) => {
           const href = slugToWikiPath(doc.slug);
-          const active = pathname === href;
+          const decodedPath = slugToDecodedWikiPathname(doc.slug);
+          const active = isActiveWikiPath(pathname, doc.slug, href);
           return (
-            <li key={href}>
+            <li key={decodedPath}>
               <Link
                 href={href}
                 onClick={onNavigate}
