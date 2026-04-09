@@ -193,4 +193,11 @@ arXiv 论文（标题：「Raw Text Beats Extracted Memory: A Zero-API Baseline 
 
 ---
 
+## 参见
+
+- [[mempalace-memory-system]] — MemPalace 概念页：架构详解（Palace Structure、Wings v3、AAAK）、benchmark 数据、与 Supermemory/LCM 对比
+- [[lossless-context-management]] — LCM：确定性双状态记忆架构
+- [[lcm-vs-supermemory-comparison]] — LCM vs Supermemory vs MemPalace：三种记忆架构详细对比
+- [[llm-agents]] — LLM 智能体
+
 *摘要生成时间：2026-04-07*

@@ -154,6 +154,8 @@ Supermemory 知道何时记忆变得无关：
 ## 相关页面
 
 - [[lossless-context-management]] — LCM：确定性双状态记忆架构
+- [[mempalace-memory-system]] — MemPalace：verbatim 存储 + palace 结构；raw 96.6% LongMemEval；与 Supermemory 不同哲学
+- [[lcm-vs-supermemory-comparison]] — LCM vs Supermemory vs MemPalace：三种记忆架构详细对比
 - [[llm-agents]] — LLM 智能体
 
 **来源：**
