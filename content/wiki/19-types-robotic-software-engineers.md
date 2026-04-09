@@ -100,7 +100,7 @@ Testers
 
 - 本页与 [[robotics-software-engineering]] 概念页互补，后者定义领域，本页提供角色分类
 - 相关概念页：[[localization]]、[[mapping]]、[[slam]]、[[path-planning]]、[[perception-engineering]]、[[controls-engineering]]、[[ros]]、[[simulation-robotics]]、[[calibration-engineering]]、[[optimization-engineering]]
-- 相关实体页：[[karissa-stisser]]（演讲者）、[[robotic-software-engineering-roles]]（分类体系本身）
+- 相关实体页：Karissa Stisser（演讲者）、19-types 角色分类体系本身（见本摘要上方列表）
 
 ---
 
