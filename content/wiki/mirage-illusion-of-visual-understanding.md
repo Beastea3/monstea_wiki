@@ -95,7 +95,7 @@ The authors suggest several approaches to more robust evaluation:
 - [[visual-understanding]] — What it means for AI systems to genuinely comprehend visual information
 - [[mirage-reasoning]] — The specific phenomenon of apparent visual understanding without image input
 - [[llm-agents]] — Related issues of capability evaluation in language-based systems
-- [[benchmark-contamination]] — Broader issues of training data overlap with evaluation sets
+- benchmark-contamination — Broader issues of training data overlap with evaluation sets
 
 ---
 
