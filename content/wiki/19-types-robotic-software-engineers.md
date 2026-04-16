@@ -1,3 +1,8 @@
+---
+title: 19 Types Robotic Software Engineers
+created: 2026-04-16
+---
+
 # 19 Types of Robotic Software Engineers
 # 19类机器人软件工程师
 

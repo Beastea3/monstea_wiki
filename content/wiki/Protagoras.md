@@ -1,6 +1,11 @@
+---
+title: Protagoras
+created: 2026-04-16
+---
+
 # 普罗泰戈拉（Protagoras）
 
-**来源**：[sources/Protagoras 普罗泰戈拉.md](sources/Protagoras 普罗泰戈拉.md)
+**来源**：[sources/Protagoras 普罗泰戈拉.md](../sources/Protagoras 普罗泰戈拉.md)
 
 ## 核心思想
 

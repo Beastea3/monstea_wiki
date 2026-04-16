@@ -1,7 +1,12 @@
+---
+title: Mem0
+created: 2026-04-16
+---
+
 # Mem0 — Universal Memory Layer for AI
 
 > Tags: memory, AI-agents, personalization, vector-store, YC
-> Source: [sources/mem0-README.md](sources/mem0-README.md)
+> Source: [sources/mem0-README.md](../sources/mem0-README.md)
 
 ---
 

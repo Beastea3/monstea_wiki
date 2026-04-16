@@ -1,6 +1,11 @@
+---
+title: Heraclitus
+created: 2026-04-16
+---
+
 # 赫拉克利特（Heraclitus）
 
-**来源**：[sources/Heraclitus 赫拉克利特.md](sources/Heraclitus 赫拉克利特.md)
+**来源**：[sources/Heraclitus 赫拉克利特.md](../sources/Heraclitus 赫拉克利特.md)
 
 ## 核心思想
 

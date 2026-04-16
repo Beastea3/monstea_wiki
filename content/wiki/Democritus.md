@@ -1,6 +1,11 @@
+---
+title: Democritus
+created: 2026-04-16
+---
+
 # 德谟克利特（Democritus）
 
-**来源**：[sources/Democritus 德谟克利特.md](sources/Democritus 德谟克利特.md)
+**来源**：[sources/Democritus 德谟克利特.md](../sources/Democritus 德谟克利特.md)
 
 ## 核心思想
 

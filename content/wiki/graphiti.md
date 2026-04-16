@@ -1,7 +1,12 @@
+---
+title: Graphiti
+created: 2026-04-16
+---
+
 # Graphiti — Temporal Knowledge Graphs for AI Agents
 
 > Tags: knowledge-graphs, temporal, memory, agents, Zep
-> Source: [sources/graphiti-README.md](sources/graphiti-README.md)
+> Source: [sources/graphiti-README.md](../sources/graphiti-README.md)
 
 ---
 

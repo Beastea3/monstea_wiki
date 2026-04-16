@@ -1,6 +1,11 @@
+---
+title: Plato
+created: 2026-04-16
+---
+
 # 柏拉图（Plato）
 
-**来源**：[sources/Plato 柏拉图.md](sources/Plato 柏拉图.md)
+**来源**：[sources/Plato 柏拉图.md](../sources/Plato 柏拉图.md)
 
 ## 核心思想
 

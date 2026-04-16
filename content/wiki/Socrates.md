@@ -1,6 +1,11 @@
+---
+title: Socrates
+created: 2026-04-16
+---
+
 # 苏格拉底（Socrates）
 
-**来源**：[sources/Socrates 苏格拉底.md](sources/Socrates 苏格拉底.md)
+**来源**：[sources/Socrates 苏格拉底.md](../sources/Socrates 苏格拉底.md)
 
 ## 核心思想
 

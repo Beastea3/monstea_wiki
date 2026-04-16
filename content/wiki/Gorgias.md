@@ -1,6 +1,11 @@
+---
+title: Gorgias
+created: 2026-04-16
+---
+
 # 高尔吉亚（Gorgias）
 
-**来源**：[sources/Gorgias 高尔吉亚.md](sources/Gorgias 高尔吉亚.md)
+**来源**：[sources/Gorgias 高尔吉亚.md](../sources/Gorgias 高尔吉亚.md)
 
 ## 核心思想
 

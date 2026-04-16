@@ -1,3 +1,8 @@
+---
+title: Supermemory
+created: 2026-04-16
+---
+
 # Supermemory — 总结
 
 > 来源：[GitHub README](https://github.com/supermemoryai/supermemory) + [Research Paper](https://supermemory.ai/research)

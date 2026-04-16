@@ -1,6 +1,11 @@
+---
+title: Aristotle
+created: 2026-04-16
+---
+
 # 亚里士多德（Aristotle）
 
-**来源**：[sources/Aristotle 亚里士多德.md](sources/Aristotle 亚里士多德.md)
+**来源**：[sources/Aristotle 亚里士多德.md](../sources/Aristotle 亚里士多德.md)
 
 ## 核心思想
 

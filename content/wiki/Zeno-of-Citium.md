@@ -1,6 +1,11 @@
+---
+title: Zeno Of Citium
+created: 2026-04-16
+---
+
 # 季蒂昂的芝诺（Zeno of Citium）
 
-**来源**：[sources/Zeno of Citium 季蒂昂的芝诺.md](sources/Zeno of Citium 季蒂昂的芝诺.md)
+**来源**：[sources/Zeno of Citium 季蒂昂的芝诺.md](../sources/Zeno of Citium 季蒂昂的芝诺.md)
 
 ## 核心思想
 

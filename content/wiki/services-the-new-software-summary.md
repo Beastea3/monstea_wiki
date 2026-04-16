@@ -1,3 +1,8 @@
+---
+title: Services The New Software Summary
+created: 2026-04-16
+---
+
 # Services: The New Software
 # Services：软件的新形态
 

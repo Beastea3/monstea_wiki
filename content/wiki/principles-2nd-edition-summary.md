@@ -1,3 +1,8 @@
+---
+title: Principles 2Nd Edition Summary
+created: 2026-04-16
+---
+
 # Principles of Building AI Agents (2nd Edition)
 
 **Author:** Sam Bhagwat | **Published:** May 2025 (2nd Edition) | **Source:** [sources/principles_2nd_edition_updated.pdf](sources/principles_2nd_edition_updated.pdf)

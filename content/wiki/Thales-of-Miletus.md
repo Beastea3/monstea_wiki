@@ -1,6 +1,11 @@
+---
+title: Thales Of Miletus
+created: 2026-04-16
+---
+
 # 米利都的泰勒斯（Thales of Miletus）
 
-**来源**：[sources/Thales of Miletus 米利都的泰勒斯.md](sources/Thales of Miletus 米利都的泰勒斯.md)
+**来源**：[sources/Thales of Miletus 米利都的泰勒斯.md](../sources/Thales of Miletus 米利都的泰勒斯.md)
 
 ## 核心思想
 

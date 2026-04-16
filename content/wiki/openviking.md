@@ -1,7 +1,12 @@
+---
+title: Openviking
+created: 2026-04-16
+---
+
 # OpenViking — Context Database for AI Agents
 
 > Tags: context-database, memory, agents, volcengine, filesystem-paradigm
-> Source: [sources/openviking-README.md](sources/openviking-README.md)
+> Source: [sources/openviking-README.md](../sources/openviking-README.md)
 
 ---
 

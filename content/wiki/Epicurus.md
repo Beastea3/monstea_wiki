@@ -1,6 +1,11 @@
+---
+title: Epicurus
+created: 2026-04-16
+---
+
 # 伊壁鸠鲁（Epicurus）
 
-**来源**：[sources/Epicurus 伊壁鸠鲁.md](sources/Epicurus 伊壁鸠鲁.md)
+**来源**：[sources/Epicurus 伊壁鸠鲁.md](../sources/Epicurus 伊壁鸠鲁.md)
 
 ## 核心思想
 

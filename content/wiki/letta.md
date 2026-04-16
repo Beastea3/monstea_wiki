@@ -1,7 +1,12 @@
+---
+title: Letta
+created: 2026-04-16
+---
+
 # Letta — Stateful Agent Platform (formerly MemGPT)
 
 > Tags: agents, memory, stateful, self-improvement, MCP
-> Source: [sources/letta-README.md](sources/letta-README.md)
+> Source: [sources/letta-README.md](../sources/letta-README.md)
 
 ---
 

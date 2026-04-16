@@ -1,6 +1,11 @@
+---
+title: Pythagoras
+created: 2026-04-16
+---
+
 # 毕达哥拉斯（Pythagoras）
 
-**来源**：[sources/Pythagoras 毕达哥拉斯.md](sources/Pythagoras 毕达哥拉斯.md)
+**来源**：[sources/Pythagoras 毕达哥拉斯.md](../sources/Pythagoras 毕达哥拉斯.md)
 
 ## 核心思想
 

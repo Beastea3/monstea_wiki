@@ -1,6 +1,11 @@
+---
+title: Parmenides
+created: 2026-04-16
+---
+
 # 巴门尼德（Parmenides）
 
-**来源**：[sources/Parmenides 巴门尼德.md](sources/Parmenides 巴门尼德.md)
+**来源**：[sources/Parmenides 巴门尼德.md](../sources/Parmenides 巴门尼德.md)
 
 ## 核心思想
 
