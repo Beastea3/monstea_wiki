@@ -1,6 +1,9 @@
 ---
 title: Mem0
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # Mem0 — Universal Memory Layer for AI

@@ -1,6 +1,9 @@
 ---
 title: Epicurus
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 伊壁鸠鲁（Epicurus）

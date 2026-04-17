@@ -1,6 +1,9 @@
 ---
 title: Zeno Of Citium
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 季蒂昂的芝诺（Zeno of Citium）

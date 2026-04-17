@@ -1,11 +1,19 @@
 ---
 title: Claude Mythos Preview 技术报告
-authors: Nicholas Carlini, Newton Cheng, Keane Lucas, Michael Moore, Milad Nasr, Vinay Prabhushankar, Winnie Xiao et al.
+authors: Nicholas Carlini, Newton Cheng, Keane Lucas, Michael Moore, Milad Nasr, Vinay
+  Prabhushankar, Winnie Xiao et al.
 date: 2026-04-07
 source: claude-mythos-preview-2026
-tags: [ai-security, vulnerability-research, claude, anthropic, zero-day, exploit-development]
+tags:
+- ai-security
+- vulnerability-research
+- claude
+- anthropic
+- zero-day
+- exploit-development
 created: 2026-04-09
 updated: 2026-04-09
+type: summary
 ---
 
 # Claude Mythos Preview 技术报告摘要

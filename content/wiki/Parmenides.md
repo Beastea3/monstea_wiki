@@ -1,6 +1,9 @@
 ---
 title: Parmenides
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 巴门尼德（Parmenides）

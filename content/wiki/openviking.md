@@ -1,6 +1,9 @@
 ---
 title: Openviking
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # OpenViking — Context Database for AI Agents

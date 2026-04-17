@@ -1,6 +1,9 @@
 ---
 title: Democritus
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 德谟克利特（Democritus）

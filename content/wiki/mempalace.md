@@ -1,6 +1,9 @@
 ---
 title: Mempalace
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # MemPalace — AI 记忆宫殿系统

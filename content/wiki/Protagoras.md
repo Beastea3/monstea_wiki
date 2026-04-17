@@ -1,6 +1,9 @@
 ---
 title: Protagoras
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 普罗泰戈拉（Protagoras）

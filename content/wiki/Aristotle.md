@@ -1,6 +1,9 @@
 ---
 title: Aristotle
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 亚里士多德（Aristotle）

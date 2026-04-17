@@ -1,6 +1,9 @@
 ---
 title: Heraclitus
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 赫拉克利特（Heraclitus）

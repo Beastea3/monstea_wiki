@@ -1,6 +1,9 @@
 ---
 title: Pythagoras
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 毕达哥拉斯（Pythagoras）

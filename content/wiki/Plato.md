@@ -1,6 +1,9 @@
 ---
 title: Plato
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 柏拉图（Plato）

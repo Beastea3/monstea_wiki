@@ -1,6 +1,9 @@
 ---
 title: Mirage Illusion Of Visual Understanding
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # MIRAGE: The Illusion of Visual Understanding

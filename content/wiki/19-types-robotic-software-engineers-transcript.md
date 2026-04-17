@@ -1,9 +1,13 @@
 ---
-title: "19 Types of Robotic Software Engineers — Summary"
+title: 19 Types of Robotic Software Engineers — Summary
 date: 2026-04-09
-tags: [robotic, software-engineering, transcript]
+tags:
+- robotic
+- software-engineering
+- transcript
 created: 2026-04-09
 updated: 2026-04-09
+type: summary
 ---
 
 # 19 Types of Robotic Software Engineers | 机器人软件工程师的19种类型

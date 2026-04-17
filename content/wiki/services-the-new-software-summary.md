@@ -1,6 +1,9 @@
 ---
 title: Services The New Software Summary
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # Services: The New Software

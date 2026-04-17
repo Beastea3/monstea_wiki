@@ -1,6 +1,9 @@
 ---
 title: Principles 2Nd Edition Summary
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # Principles of Building AI Agents (2nd Edition)

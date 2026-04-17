@@ -1,6 +1,9 @@
 ---
 title: Thales Of Miletus
 created: 2026-04-16
+type: summary
+updated: '2026-04-16'
+tags: []
 ---
 
 # 米利都的泰勒斯（Thales of Miletus）

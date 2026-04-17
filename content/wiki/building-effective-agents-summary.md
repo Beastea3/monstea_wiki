@@ -1,10 +1,15 @@
 ---
 title: Building Effective Agents — Summary
-tags: [source, anthropic, agents, llm]
+tags:
+- source
+- anthropic
+- agents
+- llm
 created: 2026-04-07
 updated: 2026-04-07
 sources:
-  - raw/building-effective-agents.md
+- raw/building-effective-agents.md
+type: summary
 ---
 
 # Building Effective Agents
