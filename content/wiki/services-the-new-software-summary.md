@@ -2,7 +2,7 @@
 title: Services The New Software Summary
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -92,3 +92,8 @@ tags: []
 ## 小结
 
 Sequoia 的这篇文章清晰地描绘了一条 AI 创业的新路径：**不做 AI 工具，做 AI 服务**。核心逻辑是围绕「工作成果」而非「软件功能」来构建商业模式，借助外包切入市场，以分发能力构建壁垒，最终随着 AI 能力提升不断向上游判断密集型工作渗透。下一个万亿美元公司，很可能就在这些赛道中诞生。
+
+## See Also
+
+- [[llm-agents]]
+- [[augmented-llm]]

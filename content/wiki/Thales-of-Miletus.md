@@ -2,7 +2,7 @@
 title: Thales Of Miletus
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -30,3 +30,8 @@ tags: []
 ## 关联人物
 
 - [[Aristotle|亚里士多德]]——亚里士多德在其著作中记录并批评了泰勒斯的水本原说
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[本原]]

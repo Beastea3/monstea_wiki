@@ -2,7 +2,7 @@
 title: Democritus
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -32,3 +32,8 @@ tags: []
 ## 历史地位
 
 德谟克利特与留基伯共同确立了以**原子论**解释万物的唯物论传统，对后世科学和哲学影响深远。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[原子论]]

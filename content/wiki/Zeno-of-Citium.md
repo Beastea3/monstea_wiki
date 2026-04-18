@@ -2,7 +2,7 @@
 title: Zeno Of Citium
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -39,3 +39,8 @@ tags: []
 ## 与埃利亚的芝诺的关系
 
 注意：芝诺·季蒂昂（Zeno of Citium）是斯多葛学派创始人；芝诺·埃利亚（Zeno of Elea）是巴门尼德的弟子，以**芝诺悖论**闻名。两者不同。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Epicurus|伊壁鸠鲁]]

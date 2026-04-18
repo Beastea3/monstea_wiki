@@ -2,7 +2,7 @@
 title: Gorgias
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -35,3 +35,8 @@ tags: []
 ## 历史地位
 
 高尔吉亚代表了古希腊**诡辩学派**的修辞传统，与苏格拉底-柏拉图的哲学追问形成鲜明对比。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Protagoras|普罗泰戈拉]]

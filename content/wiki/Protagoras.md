@@ -2,7 +2,7 @@
 title: Protagoras
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -42,3 +42,8 @@ tags: []
 ## 关联概念
 
 - [[Aristotle|亚里士多德]]——曾批评普罗泰戈拉的相对主义
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Socrates|苏格拉底]]

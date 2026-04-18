@@ -2,7 +2,7 @@
 title: Heraclitus
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -36,3 +36,8 @@ tags: []
 ## 历史地位
 
 赫拉克利特是从早期自然哲学向理性哲学过渡的关键人物，其流变观与巴门尼德的"不动的一"形成鲜明对立。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Parmenides|巴门尼德]]

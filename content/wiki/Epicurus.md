@@ -2,7 +2,7 @@
 title: Epicurus
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -31,3 +31,8 @@ tags: []
 ## 历史地位
 
 伊壁鸠鲁学派（Skeptical School）以追求灵魂安宁为目标，对后世西方哲学中的享乐主义和功利主义都有影响。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Zeno-of-Citium|芝诺（季蒂昂）]]

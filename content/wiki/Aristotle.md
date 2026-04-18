@@ -2,7 +2,7 @@
 title: Aristotle
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -56,3 +56,8 @@ tags: []
 ## 关联人物
 
 - [[Plato|柏拉图]]——师承关系；亚里士多德反对其理型论
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Plato|柏拉图]]

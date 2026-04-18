@@ -2,7 +2,7 @@
 title: Lcm
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -227,3 +227,8 @@ LCM 集成在 **Volt** 中——一个基于 OpenCode fork 的生产级终端编
 - `lcm_expand`：展开摘要节点为原始消息（仅限 sub-agent，防止主循环失控）
 - `llm_map` / `agentic_map`：算子级并行处理
 - `Task` / `Tasks`：sub-agent 委托（含无限递归守卫）
+
+## See Also
+
+- [[lossless-context-management]]
+- [[lcm-vs-supermemory-comparison]]

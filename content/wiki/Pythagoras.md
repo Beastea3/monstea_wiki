@@ -2,7 +2,7 @@
 title: Pythagoras
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -33,3 +33,8 @@ tags: []
 ## 历史地位
 
 毕达哥拉斯学派对希腊数学和哲学影响深远，其数字本原论是柏拉图理型论的重要来源之一。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Socrates|苏格拉底]]

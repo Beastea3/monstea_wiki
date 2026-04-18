@@ -2,7 +2,7 @@
 title: Parmenides
 created: 2026-04-16
 type: summary
-updated: '2026-04-16'
+updated: '2026-04-18'
 tags: []
 ---
 
@@ -33,3 +33,8 @@ tags: []
 ## 历史地位
 
 巴门尼德确立了西方哲学中**存在**（Being）这一核心概念，其逻辑论证方法也对苏格拉底-柏拉图的辩证法有所影响。
+
+## See Also
+
+- [[greek-philosophy|希腊哲学]]
+- [[Zeno-paradoxes|芝诺悖论]]

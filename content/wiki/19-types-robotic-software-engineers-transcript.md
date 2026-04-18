@@ -6,7 +6,7 @@ tags:
 - software-engineering
 - transcript
 created: 2026-04-09
-updated: 2026-04-09
+updated: '2026-04-18'
 type: summary
 ---
 
@@ -98,3 +98,8 @@ A YouTube/video educational content categorizing the **19 distinct software engi
 
 - Raw transcript: `raw/19-types-robotic-software-engineers-transcript.srt`
 - Source with metadata: `sources/19-types-robotic-software-engineers-transcript.md`
+
+## See Also
+
+- [[robotics-software-engineering]]
+- [[robotic-software-engineering-roles]]
